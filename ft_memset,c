@@ -12,6 +12,8 @@
 
 #include <libft.h>
 
+//*p is a pointer byte by byte, and *ptr doesn't move, always point the same
+
 void    *ft_memset(void *ptr, int x, size_t n) //string, value and size of buffer 
 {
     unsigned char   *p; //pointer byte by byte
