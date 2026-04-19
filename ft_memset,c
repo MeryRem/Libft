@@ -23,7 +23,7 @@ void    *ft_memset(void *ptr, int x, size_t n) //string, value and size of buffe
     {
         *p = (unsigned char)x; //write x in the current position
         p++; //move to next byte
-        n--; //remaining bytes count
+        n--; //remaining bytes
     }
     return (ptr);//return modified string
 }
